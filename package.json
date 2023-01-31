@@ -1,0 +1,44 @@
+{
+	"name": "@gabortorma/moment-ages",
+	"version": "0.1.0",
+	"description": "MomentJS for calculate ages",
+	"main": "index.js",
+	"types": "./index.d.ts",
+	"scripts": {
+		"test": "mocha tests/*",
+		"lint": "eslint --fix --ext .js,.cjs --ignore-path .gitignore .",
+		"release": "dotenv release-it"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GaborTorma/moment-ages.git"
+	},
+	"keywords": [
+		"moment",
+		"momentjs",
+		"age",
+		"ages",
+		"plugin"
+	],
+	"type": "module",
+	"author": "Gábor Torma",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/GaborTorma/moment-ages/issues"
+	},
+	"homepage": "https://github.com/GaborTorma/moment-ages",
+	"dependencies": {
+		"moment": "2.29.4"
+	},
+	"devDependencies": {
+		"chai": "4.3.7",
+		"dotenv-cli": "7.0.0",
+		"eslint": "8.33.0",
+		"eslint-plugin-chai-friendly": "0.7.2",
+		"eslint-plugin-mocha": "10.1.0",
+		"eslint-plugin-prettier": "4.2.1",
+		"mocha": "10.2.0",
+		"prettier": "2.8.3",
+		"release-it": "15.6.0"
+	}
+}
